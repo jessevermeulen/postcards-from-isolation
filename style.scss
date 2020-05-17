@@ -23,6 +23,7 @@ main {
 .wrapper {
   overflow: hidden;
   width: 24rem;
+  max-width: 60vw;
 
   .c {
     opacity: 0;
