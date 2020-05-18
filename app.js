@@ -30,12 +30,16 @@ document.addEventListener("DOMContentLoaded", () => {
         opacity: [0, 0.2],
       },
       "-=750"
-    );
+    )
+    .add({
+      targets: ".button__wrapper",
+      opacity: 1,
+    });
 });
 
 const button = document.getElementsByClassName("button")[0];
 
-let stateChange = () => {
+const stateChange = () => {
   tlUnited.play();
 
   tlUnited.finished.then(() => {

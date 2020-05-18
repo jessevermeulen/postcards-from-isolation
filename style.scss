@@ -42,6 +42,7 @@ main {
   bottom: 60px;
   display: flex;
   justify-content: space-between;
+  opacity: 0;
   cursor: pointer;
 
   .button {
